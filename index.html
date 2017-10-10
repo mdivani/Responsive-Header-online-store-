@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+  <title>My header</title>
+  <link rel="stylesheet" href="customstyles.css" />
+  <script src="https://use.fontawesome.com/e9d8e27b3a.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+<div class="navbar">
+    <a id="logo" class="nav-logo" href="#">Telisa</a>
+  <div id="menu-bar" class="nav-manu">
+    <div class="dropdown">
+    <a href="#" class="nav-icons"><span class="hidden-icons"><i class="fa fa-bars"></i></span> Categories</a>
+      <div class="dropdown-elements">
+      <a href="#" class="nav-icons drop hoverable">Christian</a>
+      <a href="#" class="nav-icons drop hoverable">Asian</a>
+      <a href="#" class="nav-icons drop hoverable">Modern Art</a>
+      <a href="#" class="nav-icons drop hoverable">Pop Art</a>
+      </div>
+    </div>
+    <a href="#" class="nav-icons arrows"><span class="hidden-icons"><i class="fa fa-info"></i></span> About</a>
+    <a href="#" class="nav-icons arrows"><span class="hidden-icons"><i class="fa fa-envelope-o"></i></span> Contact</a>
+  </div>
+  <div class="nav-toggle">
+    <button id="cattoggle" class="btn-toggle">
+      <i class='fa fa-bars fa-2x'>
+      </i>
+    </button>
+      <div id="drop-toggle" class="dropdown-elements">
+      <a href="#" class="nav-icons drop hoverable">Christian</a>
+      <a href="#" class="nav-icons drop hoverable">Asian</a>
+      <a href="#" class="nav-icons drop hoverable">Modern Art</a>
+      <a href="#" class="nav-icons drop hoverable">Pop Art</a>
+      </div>
+  </div>
+  <div class="nav-user-info">
+   <div class="nav-icons">
+     <i class="fa fa-shopping-cart">
+     </i>
+  </div>
+  <div class="nav-icons">
+      <i id="login" class="fa fa-user">
+      </i>
+    <div class="login-form">
+      <i class="arrow-login"></i>
+      <i class="fa fa-times-circle-o times-right"></i>
+      <input type="text" class="login" placeholder="Email"/>
+      <input type="password" class="login" placeholder="Password"/>
+      <div class="row">
+        <input type="checkbox"/><label>Remember me</label>
+        <button class="submit-btn">Sign In</button>
+    </div>
+      <div class="row">
+        <label class="small-text">Not registered yet?.. <a href="#">Sign Up</a></label>
+      </div>
+      <div class="row nomargin">
+        <label class="small-text">Forgot Password? <a href="#">Click here</a></label>
+      </div>
+  </div>
+  </div>
+  </div>
+    <div class="nav-search">
+      <input type='search' class="search"/>
+      <div class="nav-icons">
+      <i class='fa fa-search'>
+      </i>
+      </div>
+    </div>
+</div>
+</body>
+</html>
