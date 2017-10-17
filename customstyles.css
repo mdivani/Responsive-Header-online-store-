@@ -29,10 +29,19 @@ label.small-text {
   text-align:center;
 }
 
+div.label-txt {
+  text-align: center;
+  margin:auto;
+}
+
+.bold-text {
+  font-weight:bold;
+}
+
 .container {
   width:100%;
   margin:auto;
-  padding:20px;
+  padding:10px;
 }
 
 .navbar {
@@ -234,7 +243,7 @@ input.login {
   padding:10px;
 }
 
-button.submit-btn{
+button.submit-btn, input.submit-btn{
   margin-left:auto;
   margin-right:5px;
   padding:5px;
@@ -245,14 +254,24 @@ button.submit-btn{
   border-radius:5px;
 }
 
+input.reg-btn {
+  width:80%;
+  height:30px;
+  border:none;
+  background-color:#032302;
+  border-radius: 3px;
+  color:#fff;
+}
+
 .row {
   display:flex;
-  justify-content:flex-start;
+  justify-content:center;
   align-items:center;
   width:80%;
   color:#222;
   margin-top:10px;
   margin-bottom:5px;
+  flex-wrap: wrap;
 }
 
 .fa-user:hover div.login-form{
@@ -299,7 +318,7 @@ input.search:focus {
   margin:0 !important;
 }
 
-[class*="col-"] {
+[class^="col-"], [class*="col-"] {
   width: 100%;
 }
 
@@ -345,6 +364,20 @@ input.search:focus {
 
   .arrows {
     position:relative;
+  }
+
+  .row {
+      flex-wrap: nowrap;
+  }
+
+  div.label-txt {
+    text-align: right;
+  }
+
+  input.reg-btn {
+    margin-left:auto;
+    margin-right: 25px;
+    width: 90px;
   }
 
   .col-ms-1 {width: 8.33%;}
