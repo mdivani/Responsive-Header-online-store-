@@ -29,6 +29,13 @@ label.small-text {
   text-align:center;
 }
 
+.container {
+  width:100%;
+  height:100vh;
+  margin:auto;
+  padding:20px;
+}
+
 .navbar {
   display:flex;
   justify-content: flex-end;
@@ -220,7 +227,6 @@ a.hoverable:hover {
 }
 
 input.login {
-  width:80%;
   height:30px;
   margin:10px;
   border-radius:5px;
@@ -228,7 +234,7 @@ input.login {
   padding:10px;
 }
 
-button.submit-btn{
+button.submit-btn, input.submit-btn {
   margin-left:auto;
   margin-right:5px;
   padding:5px;
@@ -243,7 +249,6 @@ button.submit-btn{
   display:flex;
   justify-content:flex-start;
   align-items:center;
-  width:80%;
   color:#222;
   margin-top:10px;
   margin-bottom:5px;
@@ -293,6 +298,19 @@ input.search:focus {
   margin:0 !important;
 }
 
+.col-xs-1 {width: 8.33%;}
+.col-xs-2 {width: 16.66%;}
+.col-xs-3 {width: 25%;}
+.col-xs-4 {width: 33.33%;}
+.col-xs-5 {width: 41.66%;}
+.col-xs-6 {width: 50%;}
+.col-xs-7 {width: 58.33%;}
+.col-xs-8 {width: 66.66%;}
+.col-xs-9 {width: 75%;}
+.col-xs-10 {width: 83.33%;}
+.col-xs-11 {width: 91.66%;}
+.col-xs-12 {width: 100%;}
+
 @media only screen and (min-width:450px) {
   .nav-search {
     order:1;
@@ -335,6 +353,23 @@ input.search:focus {
   .arrows {
     position:relative;
   }
+
+[class*="col-"] {
+  width: 100%;
+}
+
+.col-ms-1 {width: 8.33%;}
+.col-ms-2 {width: 16.66%;}
+.col-ms-3 {width: 25%;}
+.col-ms-4 {width: 33.33%;}
+.col-ms-5 {width: 41.66%;}
+.col-ms-6 {width: 50%;}
+.col-ms-7 {width: 58.33%;}
+.col-ms-8 {width: 66.66%;}
+.col-ms-9 {width: 75%;}
+.col-ms-10 {width: 83.33%;}
+.col-ms-11 {width: 91.66%;}
+.col-ms-12 {width: 100%;}
 }
 
 @media only screen and (min-width:770px) {
@@ -350,6 +385,19 @@ input.search:focus {
     justify-content:space-around;
     order:3;
   }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 }
 
 @media only screen and (min-width:1080px) {
